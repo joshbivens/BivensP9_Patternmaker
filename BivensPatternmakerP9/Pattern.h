@@ -17,10 +17,10 @@ struct Pattern {
     std::string name;
     std::vector<std::pair<int, int>> coords;
 
-	Pattern(std::string name, std::vector<std::pair<int, int>> coords) {
-		this->name = name;
-		this->coords = coords;
-	}
+    Pattern(std::string name, std::vector<std::pair<int, int>> coords) {
+	this->name = name;
+	this->coords = coords;
+    }
 };
 
 #endif // !_PATTERN_H_
