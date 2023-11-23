@@ -18,8 +18,8 @@ struct Pattern {
     std::vector<std::pair<int, int>> coords;
 
     Pattern(std::string name, std::vector<std::pair<int, int>> coords) {
-	this->name = name;
-	this->coords = coords;
+        this->name = name;
+        this->coords = coords;
     }
 };
 
