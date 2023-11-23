@@ -87,7 +87,7 @@ int main()
 		}
 	});
 
-	//// For each pattern, make a Patternmaker object
+	// For each pattern, make a Patternmaker object
 	for (Pattern pattern : patterns)
 	{
 		// Make new Patternmaker object
